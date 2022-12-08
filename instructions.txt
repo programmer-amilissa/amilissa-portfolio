@@ -1,0 +1,14 @@
+local start
+npm run dev
+
+deploy to heroku
+git add .
+git commit -m "Sample Message"
+git push heroku master
+
+
+color palette
+222831 black
+393E46 grey
+FFD369 yellow
+EEEEEE white 
