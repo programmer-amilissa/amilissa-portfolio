@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
+import DefaultButton from "@/components/ui/button/DefaultButton";
 
 const HomePage: React.FC<{}> = () =>{
     
@@ -14,6 +15,7 @@ const HomePage: React.FC<{}> = () =>{
         <h1>
         Amilissa Araneta - Portfolio
         </h1>
+        <DefaultButton />
       </div>
       </>
   )
