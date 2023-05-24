@@ -1,0 +1,11 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+
+  .item{
+    align-self: center;
+  }
+  
+  

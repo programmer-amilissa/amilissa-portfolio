@@ -1,22 +1,18 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import DefaultButton from "@/components/ui/button/DefaultButton";
+import { ContactSection, Home, NavBar } from "@/components";
 
 const HomePage: React.FC<{}> = () =>{
     
   return (
     <>
       <Head>
-        <title>HomePage</title>
+        <title>Amilissa Araneta - Portfolio</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="My page title" key="title" />
+        <meta property="og:title" content="Amilissa Araneta - Portfolio" key="amilissa-araneta-portfolio" />
       </Head>
-      <div>
-        <h1>
-        Amilissa Araneta - Portfolio
-        </h1>
-        <DefaultButton />
-      </div>
+      <NavBar />
+      <Home />
       </>
   )
 }
