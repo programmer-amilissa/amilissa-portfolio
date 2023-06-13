@@ -4,10 +4,28 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      animation: {
+        "slide-down": "slide-down 0.2s ease-in-out",
+      },
       fontFamily: {
         hkr: ["HKGroteskRegular", "sans-serif"],
       },
+      spacing: {
+        xSpace: "1rem",
+      },
       colors: {
+        error: {
+          main: "#FF4867",
+          dark: "#d62744",
+          contrast: "#FFF",
+        },
+        paper: "#FFFFFF",
+        default: "#EEEEEE",
+        primary: {
+          main: "#65ccb8",
+          dark: "#57ba98",
+          contrast: "#3b945e",
+        },
         "modernity-primary-1": "#65ccb8",
         "modernity-primary-2": "#57ba98",
         "modernity-primary-3": "#3b945e",

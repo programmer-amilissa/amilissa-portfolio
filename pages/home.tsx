@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import { ContactSection, Home, NavBar } from "@/components";
+import { Contact, Home, NavBar } from "@/components";
 
 const HomePage: React.FC<{}> = () =>{
     
@@ -13,6 +13,7 @@ const HomePage: React.FC<{}> = () =>{
       </Head>
       <NavBar />
       <Home />
+      <Contact />
       </>
   )
 }

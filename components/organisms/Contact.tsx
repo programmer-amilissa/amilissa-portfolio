@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ContactSection = () => {
+const Contact = () => {
   return (
     <div className='min-h-screen bg-black'>
 asdasds
@@ -8,4 +8,4 @@ asdasds
   )
 }
 
-export {ContactSection};
+export {Contact};
