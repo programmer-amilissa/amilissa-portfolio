@@ -1,8 +1,8 @@
-import type { ReactElement, ReactNode } from "react";
-import type { NextPage } from "next";
-import type { AppProps } from "next/app";
+import type { ReactElement, ReactNode } from 'react';
+import type { NextPage } from 'next';
+import type { AppProps } from 'next/app';
 
-import "@/styles/globals.css";
+import '@/styles/globals.css';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   // eslint-disable-next-line no-unused-vars
@@ -20,7 +20,7 @@ export default function App({
   const getLayout = Component.getLayout || ((page) => page);
   return getLayout(
     <main>
-        <Component {...pageProps} />
-    </main>
+      <Component {...pageProps} />
+    </main>,
   );
 }

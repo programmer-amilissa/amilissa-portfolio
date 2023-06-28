@@ -1,5 +1,5 @@
-import React from "react";
-import { SvgProps } from "./svg.interface";
+import React from 'react';
+import { SvgProps } from './svg.interface';
 
 const InstagramSVG: React.FC<SvgProps> = (props) => {
   return (

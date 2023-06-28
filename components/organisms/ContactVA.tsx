@@ -4,15 +4,15 @@ import { CommonImage, GifEmbed } from '../atom/image';
 import { Accessories } from '../assets';
 import { EmailGIF } from '../assets/gifs/EmailGIF';
 
-interface ContactProps {
+interface ContactVAProps {
   name: string;
   email: string;
   subject: string;
   message: string;
 }
 
-const Contact = () => {
-  const [formState, setFormState] = useState<ContactProps>({
+const ContactVA = () => {
+  const [formState, setFormState] = useState<ContactVAProps>({
     name: '',
     email: '',
     subject: '',
@@ -84,4 +84,4 @@ const Contact = () => {
   );
 };
 
-export { Contact };
+export { ContactVA };

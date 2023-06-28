@@ -1,11 +1,9 @@
 .flexContainer {
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
 
-  .item{
-    align-self: center;
-  }
-  
-  
+.item {
+  align-self: center;
+}
