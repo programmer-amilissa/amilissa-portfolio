@@ -6,7 +6,7 @@ const HomeVA = () => {
   return (
     <section
       id="introduction"
-      className="flex flex-col lg:flex-row w-full max-h-[500px] md:min-h-[600px]"
+      className="flex flex-col lg:flex-row w-full max-h-[600px] md:min-h-[700px]"
     >
       <div className="flex flex-col lg:w-[60%] lg:justify-center">
         <span className="md:text-9xl lg:self-end text-6xl font-extrabold text-modernity-accent-2 self-center ">

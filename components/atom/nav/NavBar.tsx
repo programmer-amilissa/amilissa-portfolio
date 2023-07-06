@@ -47,15 +47,15 @@ const NavBar: React.FC<NavBarProps> = (props) => {
             className="sr-only peer"
           />
           <div
-            className="w-14 h-7 bg-gray-200 
+            className="w-10 h-5 bg-gray-200 
           peer-focus:outline-none 
           ring-2 ring-modernity-primary-2
            rounded-full peer 
             peer-checked:after:translate-x-full
             peer-checked:after:border-white after:content-[''] 
-            after:absolute after:top-0.5 after:left-[4px] after:bg-white 
-             after:border after:rounded-full after:h-6 
-            after:w-6 after:transition-all 
+            after:absolute after:top-[-1] after:left-[4px] after:bg-white 
+             after:border after:rounded-full after:h-4 
+            after:w-3.5 after:transition-all 
             peer-checked:bg-modernity-primary-3"
           ></div>
           <span className="ml-3 text-sm text-modernity-accent-2 dark:text-gray-300 font-semibold hover:text-modernity-primary-3">
@@ -63,10 +63,16 @@ const NavBar: React.FC<NavBarProps> = (props) => {
           </span>
         </label>
         <a
-          href="mailto:programmer.amilissa@gmail.com"
+          href={
+            props.asVA
+              ? 'mailto:programmer.amilissa@gmail.com'
+              : 'mailto:va.amilissa@gmail.com'
+          }
           className="hidden md:block rounded-2xl h-12 bg-modernity-primary-3 p-3 px-5 pt-2 baseline text-modernity-accent-1 font-semibold hover:scale-110 transition-transform hover:text-modernity-accent-2 hover:bg-modernity-primary-2"
         >
-          {props.asVA ? "programmer.amilissa@gmail.com" : "va.amilissa@gmail.com"}
+          {props.asVA
+            ? 'programmer.amilissa@gmail.com'
+            : 'va.amilissa@gmail.com'}
         </a>
 
         <button

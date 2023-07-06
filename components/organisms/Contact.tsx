@@ -34,7 +34,7 @@ const Contact = () => {
             Elevating User Experiences through Intuitive Interfaces:{' '}
           </span>
           <span className="font-bold text-2xl justify-normal text-modernity-primary-3">
-            Reach out and Let`&apos;`s Build Something Extraordinary!
+            Reach out and Let&apos;s Build Something Extraordinary!
           </span>
         </div>
         <CommonTextfield
