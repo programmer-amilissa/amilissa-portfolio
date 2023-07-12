@@ -1,7 +1,7 @@
-import { EuphyLogo } from '@/components/assets/pngs';
+import { EuphyLogo } from '@/assets/pngs';
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
-import { HamburgerSVG } from '@/components/assets';
+import { HamburgerSVG } from '@/assets';
 
 interface NavBarProps {
   handleOnClick: () => void;

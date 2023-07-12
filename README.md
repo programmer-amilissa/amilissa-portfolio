@@ -20,13 +20,27 @@ yarn lint
 
 yarn prettier --write .
 
+<!-- to push to github -->
+
+git status
+
+git add .
+
+git
+
 <!-- to upload to vercel -->
 
 yarn build
 
 vercel login
 
+<!-- To deploy to development (amilissa-portfolio-amilissaaraneta-gmailcom.vercel.app) -->
+
 vercel
+
+<!-- To deploy to production (amilissa-portfolio.vercel.app) -->
+
+vercel --prod
 
 <!-- done -->
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import { CommonImage } from '../atom/image';
-import { Avtelcom, BeatMasterMobile, FotoKraftWerks } from '../assets';
+import { CommonImage } from '@/components/atom/image';
+import { Avtelcom, BeatMasterMobile, FotoKraftWerks } from '@/assets';
 import Link from 'next/link';
 
 const ProjectList = [
@@ -52,7 +52,10 @@ const ProjectsVA = () => {
           } p-5 md:p-10`}
         >
           <div className="md:flex-grow md:w-1/2 rounded-xl overflow-hidden">
-            <Link href={project.link} target="_blank">
+            <Link
+              href={project.link}
+              target={project.link === '#' ? '_self' : '_blank'}
+            >
               <CommonImage
                 src={project.src}
                 alt={project.alt}
@@ -63,7 +66,10 @@ const ProjectsVA = () => {
           <div className="md:flex-grow md:p-10 sm:p5 md:w-1/2">
             <div className="pt-10">
               <span className="text-2xl font-bold hover:text-modernity-primary-3">
-                <Link href={project.link} target="_blank">
+                <Link
+                  href={project.link}
+                  target={project.link === '#' ? '_self' : '_blank'}
+                >
                   {project.title}
                 </Link>
               </span>

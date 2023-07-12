@@ -1,6 +1,6 @@
 import React from 'react';
-import { IconButton } from '../atom';
-import { GithubSVG, LinkedInSVG, YoutubeSVG } from '../assets';
+import { IconButton } from '../../atom';
+import { GithubSVG, LinkedInSVG, YoutubeSVG } from '@/assets';
 
 const HomeVA = () => {
   return (

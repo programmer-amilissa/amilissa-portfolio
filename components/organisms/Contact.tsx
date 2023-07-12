@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { CommonTextArea, CommonTextfield, DefaultButton } from '../atom';
 import { CommonImage, GifEmbed } from '../atom/image';
-import { Accessories } from '../assets';
-import { EmailGIF } from '../assets/gifs/EmailGIF';
+import { Accessories } from '@/assets';
+import { EmailGIF } from '@/assets/gifs/EmailGIF';
 
 interface ContactProps {
   name: string;
