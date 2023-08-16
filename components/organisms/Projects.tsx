@@ -65,10 +65,10 @@ const ProjectList = [
   {
     index: 6,
     src: BreweryTrader,
-    alt: 'Brewery Trader',
+    alt: 'Brewery-Trader',
     subTitle:
       'For those selling equipment or in search of industrial bargains, this marketplace stands as the ultimate destination. Addressing diverse needs, it presents sellers with a platform to highlight their items, while buyers discover a range of competitively priced options. A realm of seamless transactions and intelligent industrial shopping awaits.',
-    title: 'Brewery Trader',
+    title: 'Brewery Trader – Used & New Brewery Equipment',
     link: 'https://brewerytrader.com/',
   },
   {
