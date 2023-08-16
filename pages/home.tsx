@@ -8,6 +8,7 @@ import {
   ProjectsVA,
   HomeVA,
   ContactVA,
+  Footer,
 } from '@/components';
 
 const HomePage: React.FC<{}> = () => {
@@ -44,6 +45,7 @@ const HomePage: React.FC<{}> = () => {
           </>
         )}
       </div>
+      <Footer />
     </>
   );
 };

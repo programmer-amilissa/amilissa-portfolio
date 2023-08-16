@@ -10,7 +10,7 @@ interface NavBarProps {
 
 const links = [
   { index: 1, link: '/', title: 'Home' },
-  { index: 2, link: '/', title: 'Projects' },
+  { index: 2, link: '#Projects', title: 'Projects' },
   { index: 3, link: '/', title: 'About' },
 ];
 
@@ -32,6 +32,7 @@ const NavBar: React.FC<NavBarProps> = (props) => {
           {links.map((link) => (
             <a
               key={link.index}
+              id={link.title}
               href={link.link}
               className="hover:text-modernity-primary-3 font-semibold hover:font-bold"
             >
@@ -71,8 +72,8 @@ const NavBar: React.FC<NavBarProps> = (props) => {
           className="hidden md:block rounded-2xl h-12 bg-modernity-primary-3 p-3 px-5 pt-2 baseline text-modernity-accent-1 font-semibold hover:scale-110 transition-transform hover:text-modernity-accent-2 hover:bg-modernity-primary-2"
         >
           {props.asVA
-            ? 'programmer.amilissa@gmail.com'
-            : 'va.amilissa@gmail.com'}
+            ? 'va.amilissa@gmail.com'
+            : 'programmer.amilissa@gmail.com'}
         </a>
 
         <button

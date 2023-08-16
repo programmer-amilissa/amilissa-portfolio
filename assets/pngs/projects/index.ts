@@ -8,6 +8,9 @@ import ForestLake from './ForestLake.png';
 import JOMS from './job-order-management-system.png';
 import BIRDocumentTracer from './BIR-Document-Tracer.png';
 import SalesAndInventory from './sales-and-inventory-management-system-using-vbnet.png';
+import Spacesium1 from './spacesium-1.png';
+import JMBullion from './jm-bullion.png';
+import BreweryTrader from './brewery-trader.png';
 
 export {
   Avtelcom,
@@ -20,4 +23,7 @@ export {
   JOMS,
   BIRDocumentTracer,
   SalesAndInventory,
+  Spacesium1,
+  JMBullion,
+  BreweryTrader,
 };
